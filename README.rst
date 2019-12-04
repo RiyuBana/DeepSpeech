@@ -1,6 +1,16 @@
 Project DeepSpeech
 ==================
 
+python DeepSpeech.py --n_hidden 2048 --checkpoint_dir deepspeech-0.6.0-models/ --epochs 3 --train_files /home/paperspace/Speech_Recog/Kaggle_data/clips/train.csv --dev_files /home/paperspace/Speech_Recog/Kaggle_data/clips/dev.csv --test_files /home/paperspace/Speech_Recog/Kaggle_data/clips/test.csv --learning_rate 0.0001
+
+
+deepspeech --model deepspeech-0.6.0-models/output_graph.pbmm --alphabet --lm deepspeech-0.6.0-models/lm.binary --trie deepspeech-0.6.0-models/trie --audio /home/paperspace/Speech_Recog/Kaggle_data/clips/afrikaans1.w
+
+
+
+(deepspeech-train-venv) paperspace@ps0333ns8:~/DeepSpeech/DeepSpeech$ deepspeech --version                                                                   TensorFlow: v1.14.0-21-ge77504a                                                                                                                              DeepSpeech: v0.6.0-0-g6d43e21                                                                                                                                
+
+models in DeepSpeech/deepspeech-0.6.0-models/    
 
 .. image:: https://readthedocs.org/projects/deepspeech/badge/?version=latest
    :target: http://deepspeech.readthedocs.io/?badge=latest
