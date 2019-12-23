@@ -6,6 +6,7 @@ python DeepSpeech.py --n_hidden 2048 --checkpoint_dir deepspeech-0.6.0-models/ -
 
 deepspeech --model deepspeech-0.6.0-models/output_graph.pbmm --alphabet --lm deepspeech-0.6.0-models/lm.binary --trie deepspeech-0.6.0-models/trie --audio ~/Speech_Recog/Kaggle_data/clips/afrikaans1.w
 
+(deepspeech-train-venv) ----- :~/DeepSpeech/DeepSpeech$ deepspeech --model deepspeech-0.6.0-models/output_graph.pbmm --lm deepspeech-0.6.0-models/lm.binary --trie deepspeech-0.6.0-models/trie --audio ~/Speech_Recog/TATA_AIA/a.wav 
 
 
 (deepspeech-train-venv) machine:~/DeepSpeech/DeepSpeech$ deepspeech --version
